@@ -20,20 +20,23 @@ Index
 About
 -----------
 
-normalista is a <a href:”https://jekyllrb.com/“ target=“_blank”>Jekyll</a> course template for those who teach, are comfortable writing <a href:”http://whatismarkdown.com/“ target=“_blank”>Markdown</a> and are not very interested in setting up databases or maintaining web servers, but rather prefer to host Course materials in Github and present it all in a website. 
-Given the fact that course materials do not require publishing a lot of posts constantly or need to call contents from a database, using <a href:”https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/“ target=“_blank”>Jekyll with Github Pages</a>, instead of more complex platforms, seems like a great fit for teachers like me and you. Plus its free and open source👌🏽.
+normalista is a [Jekyll](https://jekyllrb.com/) course template for those who teach, are comfortable writing [Markdown](http://whatismarkdown.com/) and are not very interested in setting up databases or maintaining web servers, but rather prefer to host Course materials in Github and present it all in a website. 
+
+Given the fact that course materials do not require publishing a lot of posts constantly or need to call contents from a database, using [Jekyll with Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), instead of more complex platforms, seems like a great fit for teachers like me and you. 
+
+Plus its free and open source👌🏽.
 
 ### Why Jekyll
  
-- Allows you to write Markdown or <a href=“https://txstyle.org/“ target=“_blank”>Textile</a> 
-- Comes with a templating engine called <a href=“https://shopify.github.io/liquid/“ target=“_blank”>Liquid</a> and HTML & CSS with a logical <a href=“http://yeswejekyll.com/“ target=“_blank”>structure</a>.  
-- Generates pretty <a href=“http://jekyllthemes.org/“ target=“_blank”>nice looking</a> static websites with “categories, pages, posts, and custom layouts”.
+- Allows you to write Markdown or [Textile](https://txstyle.org/)
+- Comes with a templating engine called [Liquid](https://shopify.github.io/liquid/) and HTML & CSS with a logical [structure](http://yeswejekyll.com/).  
+- Generates pretty [nice looking](http://jekyllthemes.org/) static websites with “categories, pages, posts, and custom layouts”.
 
 ### Why Github and Github pages
  
 If you teach anything that includes code (in my case Data and Journalism) and collaborative work, Github is the place to be.
-- You can create your course as an <a href=“https://help.github.com/articles/about-organizations/“ target=“_blank”>Organization</a>, like this <a href=“https://github.com/advanced-js” target=“_blank”>Advanced JS course</a> example. 
-- Students can <a href=“https://help.github.com/articles/cloning-a-repository/“ target=“_blank”>Clone</a> (copy in your computer) or <a href=“https://help.github.com/articles/about-forks/“ target=“_blank”>Fork</a> (create a copy online in Github) the course and assignments. When they are done with an assignment in their repository, they can make a <a href=“https://help.github.com/articles/using-pull-requests/“ target=“_blank”>Pull Request</a> to your course repository (via Github tell you they made changes so you can review the assignment, approve it or ask for modifications).
+- You can create your course as an [Organization](https://help.github.com/articles/about-organizations/), like this [Advanced JS course](https://github.com/advanced-js) example. 
+- Students can [Clone](https://help.github.com/articles/cloning-a-repository/) (copy in your computer) or [Fork](https://help.github.com/articles/about-forks/) (create a copy online in Github) the course and assignments. When they are done with an assignment in their repository, they can make a [Pull Request](https://help.github.com/articles/using-pull-requests/) to your course repository (via Github tell you they made changes so you can review the assignment, approve it or ask for modifications).
 - Reuse course materials to create other courses.
 - Keep track of changes and invite contributors.
 - You can request Github for free education accounts for private repositories.
@@ -48,7 +51,7 @@ Goals
 
 Users
 -----------
-1. Teachers who 
+**Teachers** who 
 
 - Like tinkering and learning while teaching 
 - Want to keep course materials organized in one place 
@@ -56,15 +59,15 @@ Users
 - Want to use normalista for more than one course (and even improve it 🤘🏽)
 - Want to me more efficient with their time and reduce email/slack/sms/etc load
 
-2. Students who
+**Students** who
 
 - Deal with lots of class materials organized and stored in various formats (Google Docs, Slack, Dropbox, Email, etc)
 - Want to have a one stop shop for (most of) the Course materials
 - Have to learn about Github, Jekyll, Markdown, HTML&CSS, Javascript and more
 
-3. Organizations which
+**Organizations** which
 
-* May be looking for Jekyll templates for their course materials, teachers and students
+- May be looking for Jekyll templates for their course materials, teachers and students
 
 Layouts
 -----------
