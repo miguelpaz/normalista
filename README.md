@@ -4,7 +4,7 @@ A Jekyll course template for teachers who like to write markdown, host contents 
 This is a work in progress. For now it just includes research documentation. 
 
 Index
-========================
+-----------
 
 * [About](#about)
 * [Goals](#goals)
@@ -21,8 +21,9 @@ Index
 About
 -----------
 
-normalista is a [Jekyll](https://jekyllrb.com/) course template for those who teach, are comfortable writing [Markdown](http://whatismarkdown.com/) and are not very interested in setting up databases or maintaining web servers, but rather prefer to host Course materials in Github and present it all in a website. 
-This project is called normalista in honour ot the best teachers I ever had in Chile who were [Normalista](https://en.wikipedia.org/wiki/Normal_school) teachers. They set the bar high, like the teachers from the photo. 
+**normalista** is a [Jekyll](https://jekyllrb.com/) course template for those who teach, are comfortable writing [Markdown](http://whatismarkdown.com/) and are not very interested in setting up databases or maintaining web servers, but rather prefer to host Course materials in Github and present it all in a website. 
+
+This project is called normalista in honour ot the **best teachers** I ever had in Chile who were [Normalista](https://en.wikipedia.org/wiki/Normal_school) teachers. They set the bar high, like the teachers from the photo. 
 
 Given the fact that course materials do not require publishing a lot of posts constantly or need to call contents from a database, using [Jekyll with Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), instead of more complex platforms, seems like a great fit for teachers like me and you. 
 
