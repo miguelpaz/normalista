@@ -46,7 +46,7 @@ Goals
 * To provide a open source simple Jekyll template for dear colleagues like you 👐🏽
 
 
-Users 
+Users
 -----------
 1. Teachers who 
 
@@ -66,7 +66,7 @@ Users
 
 * May be looking for Jekyll templates for their course materials, teachers and students
 
-Layouts  
+Layouts
 -----------
 - Home: Landing page with summary of everything. A course has a name or title, a clear call to action blurb or subheadline, a description, a lesson plan and other things you can see in **Contents**
 - Course description and lesson plan (class by class)
@@ -125,7 +125,8 @@ Inspiration and acknowledgements
 normalista stands in the shoulders of giants and learns from many individuals and organizations that have done great work and thought a huge deal about online documentation, educational materials and ways to present everything for teachers and students. 
 Beyond the trove of many good online learning platforms, here are some that for one reason or another I would like to highlight in no particular order: P2P University and their [Jekyll Course Template](https://p2pu.github.io/jekyll-course-template/), [18F’s Guides](https://pages.18f.gov/guides/) and [Guides Template](https://pages.18f.gov/guides-template/), [Mozilla Learning Network](https://learning.mozilla.org/), [Mozilla Developer Network](https://developer.mozilla.org/), [Databasic.io](www.databasic.io), [Datatherapy.org](www.datatherapy.org),[W3Schools](http://www.w3schools.com/), [Google developer tutorials](https://developers.google.com/maps/documentation/javascript/get-api-key), Dan Nguyen’s Small Data Journalism [course website](http://www.smalldatajournalism.com/), Lena Groeger’s [Design course](http://lenagroeger.com/design), [Read the docs](https://readthedocs.org/), and everyone that has ever written Journalism training materials at IRE and the NICAR community.
 
-## Contributors
+Contributors
+---------------
 
 Add list of awesome creative people who have contributed in some form to the project:
 
