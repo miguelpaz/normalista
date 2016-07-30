@@ -59,7 +59,7 @@ Users
 - Like tinkering and learning while teaching 
 - Want to keep course materials organized in one place 
 - Want to offer Students the course materials in a clean website that works well in mobile  
-- Want to use normalista for mone or more than courses (and even improve it 🤘🏽)
+- Want to use normalista for one or more than courses (and even improve it 🤘🏽)
 - Want to be more efficient with their time and reduce email/slack/sms/etc load
 
 **Students** who
