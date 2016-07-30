@@ -27,7 +27,7 @@ Given the fact that course materials do not require publishing a lot of posts co
 
 Plus its free and open source👌🏽.
 
-FYI: This project is called normalista in honour ot the **best teachers** I ever had in Chile who were [Normalista](https://en.wikipedia.org/wiki/Normal_school) teachers. They set the bar high, like the teachers [from the photo](http://www.memoriasdelsigloxx.cl/601/w3-article-54181.html). 
+FYI: This project is called normalista as an homage to the **best teachers** I ever had in Chile who were [Normalista](https://en.wikipedia.org/wiki/Normal_school) teachers. They set the bar high, like the teachers [from the photo](http://www.memoriasdelsigloxx.cl/601/w3-article-54181.html). 
 
 ### Why Jekyll
  
