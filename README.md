@@ -4,12 +4,7 @@ This is a work in progress. For now it just includes research documentation.
 
 Welcome to the **Node Mapper** wiki. In this guide you will find answers about the tool and how to use it step by step.
 
-1. [About normalista](#about)
-2. [What problem does it solve?](#what-problem-does-it-solve)
-3. [What is the goal of this?](#what-is-the-goal-of-this)
-4. [Who is this for?](#who-is-this-for)
-5. [What is it for and what it is not for?](#what-is-it-for-and-what-it-is-not-for)
-6. [How can you use it?](#how-can-you-use-it)
+{{TOC}}
 
 
 About
