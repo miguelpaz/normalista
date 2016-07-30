@@ -1,6 +1,6 @@
 # normalista
 ![Image of Normalista teachers](http://www.memoriasdelsigloxx.cl/601/articles-54181_imagen.jpg)
-A Jekyll course template for teachers who like to write markdown, host contents in Github pages and don´t worry about servers.
+A Jekyll course template for teachers who like to write markdown, host contents in Github pages and don´t want to worry about servers.
 This is a work in progress. For now it just includes research documentation. 
 
 Index
