@@ -2,9 +2,19 @@
 A Jekyll course template for teachers who like to write markdown, host contents in Github pages and don´t worry about servers.
 This is a work in progress. For now it just includes research documentation. 
 
-Welcome to the **Node Mapper** wiki. In this guide you will find answers about the tool and how to use it step by step.
+Index
+========================
 
-{{TOC}}
+* [About](#about)
+* [Goals](#goals)
+* [Users](#users)
+* [Layouts](#layouts)
+* [Contents](#contents)
+* [Type of lesson materials](#type-of-lesson-materials)
+* [Use normalista](#use-normalista)
+* [Inspiration and acknowledgements](#inspiration-and-acknowledgements)
+* [Contributors](#constributors)
+
 
 
 About
@@ -34,6 +44,7 @@ Goals
 * To learn by doing, store my Course materials and offer them to students in one place 
 * To save time by reusing normalista in many courses
 * To provide a open source simple Jekyll template for dear colleagues like you 👐🏽
+
 
 Users 
 -----------
