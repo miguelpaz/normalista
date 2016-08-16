@@ -91,7 +91,7 @@ A Course Syllabus when it includes everything (sometimes it may not include ever
 - Course Learning Objectives
 - Instructor
 - Office hours and preferred communication channels
-- Assignments, Readings & Due Dates
+- Assignments, Readings & Due Dates. Suggestion by Dan Nguyen: include "Assignments" model with "due_date" in the frontmatter, and then to generate an /assignments page that only contains pages of Assignment-type.
 - Grading Rubric
 - Plagiarism and Copyright
 - Code of conduct and diversity statement
@@ -128,7 +128,7 @@ Inspiration and acknowledgements
 ---------------
 
 **normalista** stands in the shoulders of giants and learns from many individuals and organizations that have done great work and thought a huge deal about online documentation, educational materials and ways to present everything for teachers and students. 
-Beyond the trove of existing good online learning platforms, here are some projects that for one reason or another I would like to highlight and akcnowledge for their inspiration, in no particular order: P2P University and their [Jekyll Course Template](https://p2pu.github.io/jekyll-course-template/), [18F’s Guides](https://pages.18f.gov/guides/) and [Guides Template](https://pages.18f.gov/guides-template/), [Mozilla Learning Network](https://learning.mozilla.org/), [Mozilla Developer Network](https://developer.mozilla.org/), [Databasic.io](www.databasic.io), [Datatherapy.org](www.datatherapy.org),[W3Schools](http://www.w3schools.com/), [Google developer tutorials](https://developers.google.com/maps/documentation/javascript/get-api-key), Dan Nguyen’s Small Data Journalism [course website](http://www.smalldatajournalism.com/), Lena Groeger’s [Design course](http://lenagroeger.com/design), [Read the docs](https://readthedocs.org/), and **everyone that has ever written Journalism training materials at IRE and the NICAR community**.
+Beyond the trove of existing good online learning platforms, here are some projects that for one reason or another I would like to highlight and akcnowledge for their inspiration, in no particular order: P2P University and their [Jekyll Course Template](https://p2pu.github.io/jekyll-course-template/), [18F’s Guides](https://pages.18f.gov/guides/) and [Guides Template](https://pages.18f.gov/guides-template/), [Mozilla Learning Network](https://learning.mozilla.org/), [Mozilla Developer Network](https://developer.mozilla.org/), [Databasic.io](www.databasic.io), [Datatherapy.org](www.datatherapy.org),[W3Schools](http://www.w3schools.com/), [Google developer tutorials](https://developers.google.com/maps/documentation/javascript/get-api-key), Dan Nguyen’s Small Data Journalism [course website](http://www.smalldatajournalism.com/), Lena Groeger’s [Design course](http://lenagroeger.com/design), [Read the docs](https://readthedocs.org/), and everyone that has ever written Journalism training materials at IRE and the NICAR community.
 
 Contributors
 ---------------
