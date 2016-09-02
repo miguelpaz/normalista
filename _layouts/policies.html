@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% for post in site.categories.policy %}
+<section class="{% for category in post.categories%}{{category}} {% endfor%}">
+  {{post.content | markdownify}}
+</section>
+{% endfor %}
