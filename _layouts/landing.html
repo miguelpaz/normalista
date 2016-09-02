@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<!-- navigation -->
+<ul>
+  <li><a href="/syllabus">Syllabus</a></li>
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+</ul>
+
+<!-- Properties from index. These are common varibles in academic setting. -->
+<!-- title and semester -->
+<h1>{{page.title}}, {{page.semester}}</h1>
+<!-- instructors -->
+<p>Instructor(s):
+  {% for instructor in page.instructor %}
+  {{page.instructor}}
+  {% endfor %}
+</p>
+<!-- time and place -->
+<p>Duration: {{page.duration}}</p>
+<p>Course code: {{page.code}}</p>
+<p>Dates: {{page.dates}}</p>
+<p>Time: {{page.time}}</p>
+<p>Location: {{page.location}}</p>
+<!-- communication -->
+<div>
+  <p>Office Hours: {{page.officehours.description}}</p>
+  <p>Appointment Link: {{page.officehours.link}}</p>
+</div>
+<div>
+  <p>Communication Channels:</p>
+  <ul>
+    {% for item in page.communication %}
+    <li>{{item.name}}: {{item.description}}. {{item.details}}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- content from index. Anything not covered by the common varibles can be included in the actual page content. -->
+<div>
+  {{page.content | markdownify}}
+</div>

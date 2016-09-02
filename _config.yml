@@ -1,0 +1,8 @@
+exclude:
+  - README.md
+  - BUILD.md
+  - .gitignore
+  - LICENSE
+permalink: /:title
+markdown: kramdown
+baseurl:

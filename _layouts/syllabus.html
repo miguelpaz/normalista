@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="assignments">
+  {% for post in site.categories.assignment reversed %}
+  <p>{{post.title}} | due {{post.date}}</p>
+  {% endfor %}
+</section>
+<section class="grading">
+  {% for post in site.categories.grading %}
+  <p>{{post.content}}</p>
+  {% endfor %}
+</section>
+<section class="copyright">
+  {% for post in site.categories.copyright %}
+  <p>{{post.content}}</p>
+  {% endfor %}
+</section>
+<section class="coc">
+  {% for post in site.categories.coc %}
+  <p>{{post.content}}</p>
+  {% endfor %}
+</section>
+<section class="weekly">
+</section>
