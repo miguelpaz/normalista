@@ -1,10 +1,31 @@
 ---
 layout: default
 ---
-<section class="assignments">
-  {% for post in site.categories.assignment reversed %}
-  <p>{{post.title}} | due {{post.date}}</p>
+<!-- tags are specifically reserved for grouping weekly content -->
+<!-- see posts in assignments, classplans, and readings  -->
+{% for post in site.categories.weekly reversed %}
+{% capture timetag%}{{post.tags}}{% endcapture%}
+
+<section class="weekly">
+  <h1>{{post.title}}</h1>
+  <p>{{post.content | markdownify}}</p>
+</section>
+<section class="reading">
+  {% for reading in site.categories.reading %}
+    {% if reading.tags contains timetag %}
+    <h2>Reading</h2>
+    {{reading}}
+    {% endif %}
   {% endfor %}
 </section>
-<section class="weekly">
+<section class="assignment">
+  {% for assn in site.categories.assignment %}
+    {% if assn.tags contains timetag %}
+      <h2>Assignment</h2>
+      <h3>{{assn.title}}</h3>
+      <p><a href="{{post.permalink}}">Details</a></p>
+      </ul>
+    {% endif %}
+  {% endfor %}
 </section>
+{% endfor %}
