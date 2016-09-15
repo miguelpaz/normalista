@@ -2,36 +2,45 @@
 layout: default
 ---
 
-<!-- Properties from index. These are common varibles in academic setting. -->
-<!-- title and semester -->
-<h1>{{page.title}}, {{page.semester}}</h1>
+<!-- Properties from the config file. These are common varibles in academic setting. -->
 <!-- instructors -->
-<p>Instructor(s):
-  {% for instructor in page.instructor %}
-  {{page.instructor}}
-  {% endfor %}
-</p>
-<!-- time and place -->
-<p>Duration: {{page.duration}}</p>
-<p>Course code: {{page.code}}</p>
-<p>Dates: {{page.dates}}</p>
-<p>Time: {{page.time}}</p>
-<p>Location: {{page.location}}</p>
-<!-- communication -->
-<div>
-  <p>Office Hours: {{page.officehours.description}}</p>
-  <p>Appointment Link: {{page.officehours.link}}</p>
-</div>
-<div>
-  <p>Communication Channels:</p>
-  <ul>
-    {% for item in page.communication %}
-    <li>{{item.name}}: {{item.description}}. {{item.details}}</li>
-    {% endfor %}
-  </ul>
+<div class="row overview">
+  <p class="column small-6 large-2">Course title</p>
+  <p class="column small-6 large-10">{{site.title | join: " | "}}</p>
+  <p class="column small-6 large-2">Course code</p>
+  <p class="column small-6 large-10">{{site.coursecode | join: " | "}}</p>
+  <!-- instructor -->
+  <p class="column small-6 large-2">Instructor(s)</p>
+  <p class="column small-6 large-10">{{site.instructor | join: " | "}}</p>
+  <!-- time -->
+  <p class="column small-6 large-2">Duration</p>
+  <p class="column small-6 large-10">{{site.duration | join: " | "}}</p>
+  <p class="column small-6 large-2">Time</p>
+  <p class="column small-6 large-10">{{site.coursetime | join: " | "}}</p>
+  <p class="column small-6 large-2">Dates</p>
+  <p class="column small-6 large-10">{{site.coursedates | join: " | "}}</p>
+  <!-- place -->
+  <p class="column small-6 large-2">Location</p>
+  <p class="column small-6 large-10">{{site.courselocation | join: " | "}}</p>
+  <!-- office hours -->
+  <p class="column small-6 large-2">Office Hours</p>
+  <p class="column small-6 large-10">{{site.officehours.description}}</p>
+  {% if site.officehours.link %}
+  <p class="column small-6 large-2">Appointment Link</p>
+  <p class="column small-6 large-10"><a href="{{site.officehours.link}}">{{site.officehours.link}}</a></p>
+  {% endif %}
+  <!-- communication -->
+  <div class="column small-12">
+    <p>Communication Channels</p>
+    <ul>
+      {% for item in site.communication %}
+      <li>{{item.name}}: {{item.description}}. {{item.details}}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
-<!-- content from index. Anything not covered by the common varibles can be included in the actual page content. -->
-<div>
+<!-- content from index.html. Anything not covered by the common varibles can be included in the actual page content. -->
+<div class="row main">
   {{page.content | markdownify}}
 </div>
