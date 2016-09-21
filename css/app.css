@@ -1,9 +1,45 @@
-.overview {
-  padding:2em;
-  margin-top:2em;
-  border: 1px solid #ccc;
+h1,h2,h3,h4,h5,h6,label {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #666;
 }
-.main {
-  padding:2em;
+
+p, a, li {
+  font-family: 'Sanchez', serif;;
+}
+
+h1 {
+  font-size:1.2em;
+  text-align: center;
+  padding:0.5em;
+  margin:1em 0;
+  border-top:1px solid #eee;
+  border-bottom:1px solid #eee;
+}
+
+label {
+  letter-spacing: 0.1em;
+}
+
+ul {
+  margin-top:1em;
+}
+ul li {
+  list-style:none;
+}
+.row ul li:before {
+  content: '-';
+  position:absolute;
+  margin-left:-1em;
+}
+
+.row.overview {
+  margin:2em 15% 0;
+}
+.row.main {
   margin-bottom:2em;
+}
+.row.main p,
+.row.main ul,
+.row.main ol {
+  margin:2em 18%;
 }

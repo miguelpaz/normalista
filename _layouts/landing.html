@@ -5,33 +5,33 @@ layout: default
 <!-- Properties from the config file. These are common varibles in academic setting. -->
 <!-- instructors -->
 <div class="row overview">
-  <p class="column small-6 large-2">Course title</p>
+  <label class="column small-6 large-2">Course title</label>
   <p class="column small-6 large-10">{{site.title | join: " | "}}</p>
-  <p class="column small-6 large-2">Course code</p>
+  <label class="column small-6 large-2">Course code</label>
   <p class="column small-6 large-10">{{site.coursecode | join: " | "}}</p>
   <!-- instructor -->
-  <p class="column small-6 large-2">Instructor(s)</p>
+  <label class="column small-6 large-2">Instructor(s)</label>
   <p class="column small-6 large-10">{{site.instructor | join: " | "}}</p>
   <!-- time -->
-  <p class="column small-6 large-2">Duration</p>
+  <label class="column small-6 large-2">Duration</label>
   <p class="column small-6 large-10">{{site.duration | join: " | "}}</p>
-  <p class="column small-6 large-2">Time</p>
+  <label class="column small-6 large-2">Time</label>
   <p class="column small-6 large-10">{{site.coursetime | join: " | "}}</p>
-  <p class="column small-6 large-2">Dates</p>
+  <label class="column small-6 large-2">Dates</label>
   <p class="column small-6 large-10">{{site.coursedates | join: " | "}}</p>
   <!-- place -->
-  <p class="column small-6 large-2">Location</p>
+  <label class="column small-6 large-2">Location</label>
   <p class="column small-6 large-10">{{site.courselocation | join: " | "}}</p>
   <!-- office hours -->
-  <p class="column small-6 large-2">Office Hours</p>
+  <label class="column small-6 large-2">Office Hours</label>
   <p class="column small-6 large-10">{{site.officehours.description}}</p>
   {% if site.officehours.link %}
-  <p class="column small-6 large-2">Appointment Link</p>
+  <label class="column small-6 large-2">Appt Link</label>
   <p class="column small-6 large-10"><a href="{{site.officehours.link}}">{{site.officehours.link}}</a></p>
   {% endif %}
   <!-- communication -->
   <div class="column small-12">
-    <p>Communication Channels</p>
+    <label>Communication Channels</label>
     <ul>
       {% for item in site.communication %}
       <li>{{item.name}}: {{item.description}}. {{item.details}}</li>
@@ -42,5 +42,7 @@ layout: default
 
 <!-- content from index.html. Anything not covered by the common varibles can be included in the actual page content. -->
 <div class="row main">
-  {{page.content | markdownify}}
+  <div class="column large-12">
+    {{page.content | markdownify}}
+  </div>
 </div>
