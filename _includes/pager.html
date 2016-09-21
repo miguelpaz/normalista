@@ -1,0 +1,10 @@
+<!-- the pager module looks at pages in the same category -->
+
+<div class="expanded button-group">
+  {% if page.previous.categories == page.categories %}
+  <a class="button expanded warning" href="{{page.previous.permalink}}">previous</a>
+  {% endif %}
+  {% if page.next.categories == page.categories %}
+  <a class="button expanded warning" href="{{page.next.permalink}}">next</a>
+  {% endif %}
+</div>
