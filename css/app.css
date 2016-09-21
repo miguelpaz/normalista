@@ -1,4 +1,4 @@
-h1,h2,h3,h4,h5,h6,label {
+h1,h2,h3,h4,h5,h6,label,table {
   font-family: 'Roboto Condensed', sans-serif;
   color: #666;
 }
@@ -6,18 +6,33 @@ h1,h2,h3,h4,h5,h6,label {
 p, a, li {
   font-family: 'Sanchez', serif;;
 }
-
 h1 {
   font-size:1.2em;
-  text-align: center;
+  text-align:center;
   padding:0.5em;
   margin:1em 0;
   border-top:1px solid #eee;
   border-bottom:1px solid #eee;
 }
 
+h2 {
+  font-size:1em;
+}
+
 label {
   letter-spacing: 0.1em;
+}
+
+table tbody tr:first-of-type{
+  color:#333;
+}
+
+a {
+  color:#E58549;
+}
+
+a:hover {
+  color:#F5B82E;
 }
 
 ul {
@@ -32,14 +47,17 @@ ul li {
   margin-left:-1em;
 }
 
-.row.overview {
-  margin:2em 15% 0;
-}
 .row.main {
-  margin-bottom:2em;
+  margin:2em 25%;
 }
-.row.main p,
-.row.main ul,
-.row.main ol {
-  margin:2em 18%;
+
+.top-bar {
+  background-color:#f2f2f2;
+}
+.top-bar ul {
+  background-color:inherit;
+}
+
+.top-bar a {
+  font-family: 'Roboto Condensed', sans-serif;
 }

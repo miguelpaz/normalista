@@ -5,7 +5,6 @@ layout: default
 <!-- see posts in assignments, classplans, and readings  -->
 {% for post in site.categories.weekly reversed %}
 {% capture timetag%}{{post.tags}}{% endcapture%}
-
 <section class="weekly">
   <h1>{{post.title}}</h1>
   <p>{{post.content | markdownify}}</p>
@@ -13,7 +12,7 @@ layout: default
 <section class="reading">
   {% for reading in site.categories.reading %}
     {% if reading.tags contains timetag %}
-    <h2>Reading</h2>
+    <label>Reading</label>
     {{reading}}
     {% endif %}
   {% endfor %}
@@ -21,10 +20,8 @@ layout: default
 <section class="assignment">
   {% for assn in site.categories.assignment %}
     {% if assn.tags contains timetag %}
-      <h2>Assignment</h2>
-      <h3>{{assn.title}}</h3>
-      <p><a href="{{post.permalink}}">Details</a></p>
-      </ul>
+      <label>Assignment</label>
+      <a href="{{assn.permalink}}">{{assn.title}}</a>
     {% endif %}
   {% endfor %}
 </section>

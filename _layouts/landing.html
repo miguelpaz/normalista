@@ -4,7 +4,7 @@ layout: default
 
 <!-- Properties from the config file. These are common varibles in academic setting. -->
 <!-- instructors -->
-<div class="row overview">
+<div class="overview">
   <label class="column small-6 large-2">Course title</label>
   <p class="column small-6 large-10">{{site.title | join: " | "}}</p>
   <label class="column small-6 large-2">Course code</label>
@@ -41,8 +41,6 @@ layout: default
 </div>
 
 <!-- content from index.html. Anything not covered by the common varibles can be included in the actual page content. -->
-<div class="row main">
-  <div class="column large-12">
-    {{page.content | markdownify}}
-  </div>
+<div class="column large-12">
+  {{page.content | markdownify}}
 </div>

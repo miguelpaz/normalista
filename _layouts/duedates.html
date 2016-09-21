@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-
 <h1>Due dates</h1>
+<h2>Assignments</h2>
 {% for assn in site.categories.assignment reversed %}
   <!-- assignment associate with that time, eg "week1" -->
-<h2>{{assn.title}}</h2>
+<a href="{{assn.permalink}}">{{assn.title}}</a>
 <ul>
 {% for item in assn.due %}
   <li>{{item.session}}.
@@ -14,6 +14,4 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-<p><a href="{{post.permalink}}">Details</a></p>
 {% endfor %}
-
