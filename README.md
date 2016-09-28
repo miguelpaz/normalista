@@ -133,8 +133,11 @@ Beyond the trove of existing good online learning platforms, here are some proje
 Contributors
 ---------------
 
-Add list of awesome creative people who have contributed in some form to the project:
+normalista is made possible by this awesome creative contributors:
 
-Name, Last name 🤓
+- Jue Yang 
+- Davo Galavotti
 
-If you want to **contribute** submit an issue proposing layouts, user cases, improvements, learning activities, ideas worth checking, etc.  
+If you want to **contribute**, open an issue or who fork/clone and then send a pull request. You don't have to be a coder to help. Your suggestions and ideas for layouts, user cases, improvements, learning activities, ideas worth checking are all valuable.   
+Your name, last name will be added here 🤓
+
