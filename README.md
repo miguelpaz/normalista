@@ -25,7 +25,7 @@ About
 
 Given the fact that course materials do not require publishing a lot of posts constantly or need to call contents from a database, using [Jekyll with Github Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/), instead of more complex platforms, seems like a great fit for teachers like me and you. 
 
-Plus it’s free and open source.
+Plus it's free and open source👌🏽.
 
 This project is called **normalista** as an homage to the **best teachers** I ever had in Chile who were [Normalista](https://en.wikipedia.org/wiki/Normal_school) teachers. They set the bar high, like the teachers [from the photo](http://www.memoriasdelsigloxx.cl/601/w3-article-54181.html). 
 
@@ -49,7 +49,7 @@ Goals
 -----------
 * To learn by doing, store my Course materials and offer them to students in one place 
 * To save time by reusing normalista in many courses
-* To provide a open source simple Jekyll template for dear colleagues like you
+* To provide a open source simple Jekyll template for dear colleagues like you 👐🏽
 
 
 Users
@@ -91,7 +91,7 @@ A Course Syllabus when it includes everything (sometimes it may not include ever
 - Course Learning Objectives
 - Instructor
 - Office hours and preferred communication channels
-- Assignments, Readings & Due Dates
+- Assignments, Readings & Due Dates. Suggestion by Dan Nguyen: include "Assignments" model with "due_date" in the frontmatter, and then to generate an /assignments page that only contains pages of Assignment-type.
 - Grading Rubric
 - Plagiarism and Copyright
 - Code of conduct and diversity statement
@@ -128,13 +128,17 @@ Inspiration and acknowledgements
 ---------------
 
 **normalista** stands in the shoulders of giants and learns from many individuals and organizations that have done great work and thought a huge deal about online documentation, educational materials and ways to present everything for teachers and students. 
-Beyond the trove of existing good online learning platforms, here are some projects that for one reason or another I would like to highlight and akcnowledge for their inspiration, in no particular order: P2P University and their [Jekyll Course Template](https://p2pu.github.io/jekyll-course-template/), [18F’s Guides](https://pages.18f.gov/guides/) and [Guides Template](https://pages.18f.gov/guides-template/), [Mozilla Learning Network](https://learning.mozilla.org/), [Mozilla Developer Network](https://developer.mozilla.org/), [Databasic.io](www.databasic.io), [Datatherapy.org](www.datatherapy.org),[W3Schools](http://www.w3schools.com/), [Google developer tutorials](https://developers.google.com/maps/documentation/javascript/get-api-key), Dan Nguyen’s Small Data Journalism [course website](http://www.smalldatajournalism.com/), Lena Groeger’s [Design course](http://lenagroeger.com/design), [Read the docs](https://readthedocs.org/), and **everyone that has ever written Journalism training materials at IRE and the NICAR community**.
+Beyond the trove of existing good online learning platforms, here are some projects that for one reason or another I would like to highlight and akcnowledge for their inspiration, in no particular order: P2P University and their [Jekyll Course Template](https://p2pu.github.io/jekyll-course-template/), [18F’s Guides](https://pages.18f.gov/guides/) and [Guides Template](https://pages.18f.gov/guides-template/), [Mozilla Learning Network](https://learning.mozilla.org/), [Mozilla Developer Network](https://developer.mozilla.org/), [Databasic.io](www.databasic.io), [Datatherapy.org](www.datatherapy.org),[W3Schools](http://www.w3schools.com/), [Google developer tutorials](https://developers.google.com/maps/documentation/javascript/get-api-key), Dan Nguyen’s Small Data Journalism [course website](http://www.smalldatajournalism.com/), Lena Groeger’s [Design course](http://lenagroeger.com/design), [Read the docs](https://readthedocs.org/), and everyone that has ever written Journalism training materials at IRE and the NICAR community.
 
 Contributors
 ---------------
 
-Add list of awesome creative people who have contributed in some form to the project:
+normalista is made possible by this awesome creative contributors:
 
-Name, Last name 🤓
+- Jue Yang 
+- Davo Galavotti
 
-If you want to **contribute** submit an issue proposing layouts, user cases, improvements, learning activities, ideas worth checking, etc.  
+If you want to **contribute**, open an issue or who fork/clone and then send a pull request. You don't have to be a coder to help. Your suggestions and ideas for layouts, user cases, improvements, learning activities, ideas worth checking are all valuable.   
+
+- Your name, last name will be added here 🤓
+

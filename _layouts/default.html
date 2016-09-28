@@ -1,0 +1,36 @@
+---
+---
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalista - a jekyll class template</title>
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Sanchez" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navigation -->
+    <div class="">
+      <nav class="top-bar">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li><a href="/">{{site.title}}, {{site.semester}}</a></li>
+            <li><a href="/syllabus">Syllabus</a></li>
+            <li><a href="/duedates">Due Dates</a></li>
+            <li><a href="/policies">Policies</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- end navigation -->
+    <div class="row main">
+      {{content}}
+    </div>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/vendor/foundation.min.js"></script>
+    <script src="/js/vendor/what-input.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

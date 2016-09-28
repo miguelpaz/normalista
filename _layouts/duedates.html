@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<h1>Due dates</h1>
+<h2>Assignments</h2>
+{% for assn in site.categories.assignment reversed %}
+  <!-- assignment associate with that time, eg "week1" -->
+<a href="{{assn.permalink}}">{{assn.title}}</a>
+<ul>
+{% for item in assn.due %}
+  <li>{{item.session}}.
+    <div>Draft: {{item.draft}}. Submit: {{item.draftsubmit}}</div>
+    <div>Final: {{item.final}}. {% if finalsubmit.length > 0 %}Submit: {{item.finalsubmit}}{% endif %}</div>
+  </li>
+{% endfor %}
+</ul>
+{% endfor %}
