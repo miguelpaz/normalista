@@ -1,0 +1,39 @@
+---
+---
+
+html, body {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+	min-height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+// Tachyons Css Toolkit
+@import "tachyons";
+
+$normalista-silver: #F6F6F6 !default;
+$normalista-dark-grey: #323333 !default;
+$terracotta: #E4655A !default;
+
+.light-silver { color: $normalista-silver; }
+
+.bg-grey {
+	background-color: #F6F6F6;
+}
+
+.bg-terracotta {	background-color:		$terracotta }
+
+.roboto {
+  font-family: 'Roboto', 'helvetica neue', helvetica,
+               sans-serif;
+}
+
+.masthead {
+	//@extend .vh-75-ns;
+	min-height:		540px;
+	height:			540px;
+	margin-bottom: -115px;
+}
+
+.f7 { font-size: .667rem; }
