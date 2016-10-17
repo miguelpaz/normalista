@@ -80,7 +80,8 @@ Layouts
 - Activities or assignments and deadlines
 - Readings and deadlines
 - Instructor/s: Not sure if it needs its own page but when there are one instructor plus adjuncts or coaches or two or more instructors it might be worthwhile 
-- More resources: tutorials and any other materials that might be worth including if students want to dive deeper. This could be served from a spreadsheet as a table (datatables, for example) with sorting, filtering, search, or tags or categories (example: offline first, javascript, etc) or may be other useful way to show
+- More resources: tutorials and any other materials that might be worth including if students want to dive deeper. This could be served from a spreadsheet as a table (datatables, for example) with sorting, filtering, search, or tags or categories (example: offline first, javascript, etc) or may be other useful way to show.
+**[For details, read documentation]**(https://github.com/miguelpaz/normalista/blob/master/BUILD.md)
 
 Contents
 -----------  
@@ -121,7 +122,7 @@ Anatomy of an activity template (from the example linked above):
 
 Use normalista
 ---------------
-Pending. Here we will describe how to download, configure and personalize (colors, fonts, basically) normalista.
+Read the [Documentation](https://github.com/miguelpaz/normalista/blob/master/BUILD.md) for details about installing Jekyll and normalista information about layouts, posts and more. (TBD a step by step guide for setup).
 
 
 Inspiration and acknowledgements
@@ -135,8 +136,8 @@ Contributors
 
 normalista is made possible by this awesome creative contributors:
 
-- Jue Yang 
-- Davo Galavotti
+- [Jue Yang](http://www.lemony.space/resume/) 
+- [Davo Galavotti](http://pixelbeat.co/)
 
 If you want to **contribute**, open an issue or who fork/clone and then send a pull request. You don't have to be a coder to help. Your suggestions and ideas for layouts, user cases, improvements, learning activities, ideas worth checking are all valuable.   
 
