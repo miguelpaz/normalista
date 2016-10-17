@@ -87,8 +87,12 @@ In `_posts/assignments` we find `0002-01-03-assn3.md` . This means it's an "assi
 
 One caveat of following the `YYYY-MM-DD` format is that dates are finite in each month. For example, the 31st assignment might be named `0002-01-31-assn31.md`, and the 32nd assignment will be `0002-02-01-assn32.md`. (Hope there won't be that many assignments in a class!)
 
-## Front Matter
+### Front Matter
 
 Each post has front matter designed to reflect their category.
 
-TBC.
+## Style change
+
+Style sheet links are part of `_includes/head.html`.
+
+The scss file can be found `/css`. Jekyll compiles scss files when site is served/built.
