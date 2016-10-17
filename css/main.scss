@@ -18,22 +18,29 @@ $terracotta: #E4655A !default;
 
 .light-silver { color: $normalista-silver; }
 
-.bg-grey {
-	background-color: #F6F6F6;
-}
-
+.bg-grey {			background-color: 		#F6F6F6;}
 .bg-terracotta {	background-color:		$terracotta }
 
-.roboto {
-  font-family: 'Roboto', 'helvetica neue', helvetica,
-               sans-serif;
-}
+.roboto {			font-family: 			'Roboto', 'helvetica neue', helvetica, sans-serif;}
 
-.masthead {
-	//@extend .vh-75-ns;
-	min-height:		540px;
-	height:			540px;
-	margin-bottom: -115px;
+.masthead {	
+					min-height:				540px;
+					height:					540px;
+					margin-bottom: 			-115px;
 }
 
 .f7 { font-size: .667rem; }
+
+
+.homework {
+	p {
+		@extend .w-80;
+		@extend .f5;
+					line-height:			1.85;
+	}
+	ul, ol {
+		@extend p;
+		@extend .pv3;
+		@extend .fw4;
+	}
+}
