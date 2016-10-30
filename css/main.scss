@@ -14,20 +14,31 @@ html, body {
 
 $normalista-silver: #F6F6F6 !default;
 $normalista-dark-grey: #323333 !default;
+$normalista-grey: #969999 !default;
 $terracotta: #E4655A !default;
 
 .light-silver { color: $normalista-silver; }
+
+.terracotta { color: $terracotta; }
+
 
 .bg-grey {			background-color: 		#F6F6F6;}
 .bg-terracotta {	background-color:		$terracotta }
 
 .roboto {			font-family: 			'Roboto', 'helvetica neue', helvetica, sans-serif;}
-
+.playfair {			font-family: 			'Playfair Display', serif;}
 .masthead {	
 					min-height:				540px;
 					height:					540px;
 					margin-bottom: 			-115px;
 }
+
+.f-5,
+.f-subheadline {
+					// Edit from Tachyons to reflect Normalista
+  					// font-size: 				4.5rem;
+}
+
 
 .f7 { font-size: .667rem; }
 
@@ -37,9 +48,9 @@ $terracotta: #E4655A !default;
 		p {
 			@extend .w-80;
 			@extend .f5;
-						line-height:			1.85;
+			line-height:			1.85;
 		}
-		
+
 		@media #{$breakpoint-not-small} {
 
 		}
@@ -58,6 +69,19 @@ $terracotta: #E4655A !default;
 			@extend .fw4;
 		}
 	}
+}
+
+p {
+	@extend .roboto;
+	@extend .lh-copy;
+}
+
+hr {
+	border: none;
+    border-bottom: 1px solid $normalista-silver; 
+    clear: both; 
+    height: 0; 
+    width: auto;
 }
 
 footer {
