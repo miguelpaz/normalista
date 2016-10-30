@@ -33,14 +33,44 @@ $terracotta: #E4655A !default;
 
 
 .homework {
-	p {
-		@extend .w-80;
-		@extend .f5;
-					line-height:			1.85;
+	.content {
+		p {
+			@extend .w-80;
+			@extend .f5;
+						line-height:			1.85;
+		}
+		
+		@media #{$breakpoint-not-small} {
+
+		}
+
+		@media #{$breakpoint-medium} {
+
+		}
+
+		@media #{$breakpoint-large} {
+
+		}
+
+		ul, ol {
+			@extend p;
+			@extend .pv3;
+			@extend .fw4;
+		}
 	}
-	ul, ol {
-		@extend p;
-		@extend .pv3;
-		@extend .fw4;
+}
+
+footer {
+	background-color: white;
+	
+	ul {
+		padding: 0;
+		margin: 0;
+		text-align: right;
+		li {
+			display: inline;
+		}
+
 	}
+
 }
