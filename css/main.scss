@@ -16,6 +16,7 @@ $normalista-silver: #F6F6F6 !default;
 $normalista-dark-grey: #323333 !default;
 $normalista-grey: #969999 !default;
 $terracotta: #E4655A !default;
+$mariner: #3460B0 !default;
 
 .light-silver { color: $normalista-silver; }
 
@@ -71,7 +72,37 @@ $terracotta: #E4655A !default;
 	}
 }
 
-p {
+.normal-h1 {
+	@extend .lh-title;
+	@extend .f-headline;
+	@extend .b;
+	@extend .nowrap;
+	@extend .terracotta;
+	@extend .playfair;
+}
+
+.normal-h1-document {
+	@extend .f-subheadline;
+	@extend .lh-title;
+	@extend .normal;
+	@extend .playfair;
+}
+
+.normal-h2 {
+	font-size: 5.5rem; 
+	@extend .lh-solid; 
+	@extend .fw3;
+	@extend .roboto;
+}
+
+.normal-h3 {
+	@extend .f1;
+	@extend .lh-solid;
+	@extend .fw4;
+	@extend .roboto;
+}
+
+.normal-p {
 	@extend .roboto;
 	@extend .lh-copy;
 }
@@ -84,8 +115,72 @@ hr {
     width: auto;
 }
 
+.palette-block {
+  section {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
+    overflow: hidden;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0px 3px 2px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 2px 1px rgba(0,0,0,0.2);
+    div.palette-button {
+      border-radius: 3px 3px 0 0;
+      min-height: 180px;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+  small, span {
+    display: block;
+    margin: 0.5rem 0.5rem 0.25rem;
+    line-height: 0.8;
+    color: #999999;
+    font-weight: 400;
+    letter-spacing: 0.0075em;
+    -webkit-font-smoothing: antialiased;
+  }
+  small {
+    font-size: 13.7136px;
+    &:nth-child(3) {
+      color: #bbbcc7;
+      letter-spacing: 0.05em;
+      font-size: 10px;
+      line-height: 0.67;
+      margin: 0 0.5rem;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 13.7136px;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0;
+    &::before {
+      content: "#";
+    }
+  }
+}
+
+
+
 footer {
 	background-color: white;
+
+	a {
+		color: $normalista-grey;
+	}
+
+	.back a {
+		color: $terracotta;
+	}
 	
 	ul {
 		padding: 0;
