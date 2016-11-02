@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="bg-grey roboto homework">
+
+    {% include header.html %}
+
+    <div class="bg-white z-1 mw-100 w-100 w-80-ns mw9-m center pa2 pa4-m pa5-ns mb6 shadow-1 br2-ns">
+      <div class="content">
+        <h2 class="f1 fw3 lh-title dib dark-grey">Instructions</h2>
+        <p>Fork this repository to create your own version. Add your Name and Lastname in it. Add your answers to the questions and share the document with me. Please name your document Lastname_Excel1_Homework_MonthDay.</p>
+        <h3 class="f2 fw3 lh-title dib dark-grey">Exercise</h3>
+        <p>Read and use the materials in the Excel basics tutorial 1 to complete the following tasks.</p>
+        <p>Open the massshootings_us_2016_2013 sheet. This contains a list of mass shooting reported in the United States since January 1st, 2013 until June 13, 2016, collected by the Gun Violence Archive from public reports.</p>
+        <p>Do the following:</p>
+          <ul>
+            <li>Set width.</li>
+            <li>Freeze your headers.</li>
+            <li>Check the Dates in column A. If the dates are not all stored as dates, change to date format.</li>
+            <li>Add filters to filter data by A to Z in State and find out which State had more incidents in total and more killings in total?</li>
+            <li>Cancel filters</li>
+            <li>Add sort to sort values by # Killed largest to smallest and sort values by #Injured from largest to smallest.</li> Can you tell us which are the top 10 largest Killed numbers and the top 10 largest Injured numbers?</li>
+            <li>Cancel filters and sorting.</li>
+            <li>Using formulas find out how many people have been killed and how many have been injured in total and per year?</li>
+          </ul>
+        <p>Now answer the following:</p>
+          <ol>
+            <li>What was the average of people killed in mass shootings in total and per year?</li>
+            <li>What was the median of people killed in mass shootings in total and per year?</li>
+            <li>What was the mode (most common value) of people killed in mass shootings in total and per year?</li>
+            <li>Use the Min and Max functions and Sort options to identify largest and smallest amount of people killed in one single mass shooting.</li>
+            <li>Can you calculate what percentage is the largest killing, of all killings of the period 2013-2016?</li>
+          </ol>
+        <p>Now use the CONCATENATE function to join the address of every single incident in to a new column. Your goal here is to get the address that is currently separated in columns State, City Or County, Address into a new column where the data should be organized like this Address, City or County, State.</p>
+        <p>Now open the sheet killed_2016_2013 and try the following percentage exercises:</p>
+          <ul>
+            <li>If X amount of people were injured in Mass Shootings in the US in the period 2013 to 2016, and Y amount of people were injured in 2015. What percentage is the 2015 injured of the total period 2013 to 2016?</li>
+            <li>If X amount of people were injured in Mass Shootings in the US in 2015 and Y amount of people were injured in 2014. How did it change in percentage up or down?</li>
+          </ul>
+        <p>Which other stories did you find by doing calculations and analysing all the data? Please add them as proposed headlines for stories below:</p>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
