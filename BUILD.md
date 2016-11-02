@@ -8,8 +8,6 @@ Install [jekyll](http://jekyllrb.com/docs/installation/).
 
 Install [npm](https://docs.npmjs.com/getting-started/installing-node) via node.
 
-Install [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
-
 Run `npm install`.
 
 Run `gulp`.
