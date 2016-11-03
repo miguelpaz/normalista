@@ -6,7 +6,7 @@ The stack is based on gulp and jekyll.
 
 Install [jekyll](http://jekyllrb.com/docs/installation/).
 
-Install [npm](https://docs.npmjs.com/getting-started/installing-node) via node.
+Install [node](https://docs.npmjs.com/getting-started/installing-node).
 
 Run `npm install`.
 
@@ -14,7 +14,7 @@ Run `gulp`.
 
 ## Run locally
 
-`gulp`
+Run `gulp`
 
 ## Other resources
 
