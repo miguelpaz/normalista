@@ -4,7 +4,7 @@ exclude:
   - BUILD.md
   - .gitignore
   - LICENSE
-permalink: /:title
+permalink: /:title/
 markdown: kramdown
 baseurl:
 # course setup
@@ -40,7 +40,7 @@ officehours:
   description: "Thursdays and Fridays 3:00 pm to 5:00 pm at Office 421A. By appointment only."
   link: "https://calendly.com/miguelpaz/officehours"
 # Tachyons Version
-tv: "4.5.3"
+tv: "4.6.1"
 
 # Exclude this stuff
 exclude: [node_modules, gulpfile.js]
