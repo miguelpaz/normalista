@@ -16,6 +16,6 @@
     "lodash": "^4.15.0"
   },
   "dependencies": {
-    "tachyons-sass": "^4.5.5"
+    "tachyons-sass": "^4.6.1"
   }
 }
