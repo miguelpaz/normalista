@@ -1,50 +1,69 @@
 # site setup
-exclude:
-  - README.md
-  - BUILD.md
-  - .gitignore
-  - LICENSE
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js, README.md, BUILD.md, LICENSE, .gitignore, pages, assets]
 permalink: /:title/
 markdown: kramdown
-baseurl:
+# baseurl is used as a subdomain suffix. If a site is hosted on http://site.url/mysite, 
+# "/mysite" is the baseurl. For local debugging on localhost, baseurl should be commented out
+baseurl: /BIOS668.2018
 # course setup
-title: "Fundamentals of Interactive and Data Journalism (IDJ)"
-semester: "Fall 2016"
+title: "Statistical Methods for High-throughput Genomic Data II"
+semester: "Fall 2018"
 duration: "15 Weeks"
 instructor:
- - Miguel Paz
+ - Mikhail Dozmorov
 coursecode:
- - "Thursday: JOURN71003 / CRN32328"
- - "Friday: JOURN71003 / CRN32331"
+ - "BIOS 668"
 coursedates:
- - "Thursday class: August 25 to December 15, 2016. No classes on Thursday October 6 and Thursday November 24."
- - "Friday class: August 26 to December 16, 2016. No classes on Friday October 14 and Friday November 25."
-coursetime: "9:30 am to 12:20 pm"
+ - "Monday/Wednesday class: January 17 to May XX, 2018."
+coursetime: "9:00 am to 10:20 am"
 courselocation:
- - "Thursday: Rm 434"
- - "Friday: Rm 436"
+ - "Monday/Wednesday: One Capitol Square, Rm 5009"
 communication:
  -
    name: "Email"
-   description: "For questions, comments, class updates and sending copy of assignments"
-   details: "miguel.paz@journalism.cuny.edu"
+   description: ""
+   details: "mikhail.dozmorov@vcuhealth.org"
  -
-   name: "SMS"
-   description: "If it’s urgent you can text me (no voice mail). I will get back to you asap"
-   details: "123-234-5678"
+   name: ""
+   description: ""
+   details: ""
  -
-   name: "Slack"
-   description: "We will use Slack if students agree to. Slack is a easy one to one, one to many, many to many team tool for work and play"
-   details: "tbd"
+   name: ""
+   description: ""
+   details: ""
 officehours:
-  description: "Thursdays and Fridays 3:00 pm to 5:00 pm at Office 421A. By appointment only."
-  link: "https://calendly.com/miguelpaz/officehours"
+  description: "Monday/Wednesday 10:30 pm to 12:00 pm at Biostatistics Office 730."
+  link: ""
 # Tachyons Version
 tv: "4.6.1"
-
-# Exclude this stuff
-exclude: [node_modules, gulpfile.js]
 
 # SCSS Compress
 sass:
   style: compressed
+
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.io)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.io/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+BASE_PATH : http://mdozmorov.github.io/BIOS668.2018
+
+#production_url : http://mdozmorov.github.io/BIOS668.2018
