@@ -19,3 +19,7 @@ If you’re repurposing code, be sure to keep the original licensing intact. If 
 The exception to this rule is fair use: if your story is about the image itself, it is often acceptable to reproduce the image. If you want to better understand fair use, the Citizen Media Law Project is an excellent resource.
 
 When in doubt: ask.
+
+Observe the [VCU Honor Pledge](https://students.vcu.edu/studentconduct/vcu-honor-system/academic-misconduct-/honor-pledge/) in any class- and homework activities
+
+[University-wide policies](http://www.provost.vcu.edu/academic-affairs/operations/syllabus-statements/)
